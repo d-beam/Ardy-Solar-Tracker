@@ -31,4 +31,4 @@ functions with pointer arguements, etc.
 * As solar cooking controller: setting of cooking time and maximum temperature
 * logging of solar intensity
 
-Contact Daniel Müller <daniel.mueller@gmx.net> for more information about the project, including the related electronics hardware.
+Contact Daniel Müller <dbmueller@gmx.net> for more information about the project, including the related electronics hardware.
