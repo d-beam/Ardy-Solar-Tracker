@@ -17,7 +17,7 @@
 // Local configuration
 // Tamera: 37° 43' 7.2001'' N, 8° 31' 14.1924'' W
 #define LATITUDE      37.7186667f     // [-90..90]
-#define LONGITUDE     -8.520609f      // [-180..180)
+#define LONGITUDE     -8.520609f      // [-180..180) 
 
 // Application mode and settings --------------------
 #define EQUATORIAL_AXES_MODE      true  // if false, output channels are Azimuth and elevation
@@ -140,7 +140,7 @@
 // REF: reference level of analog circuitry, which is also read by an ADC channel
 #define SENSOR_REF_DEFAULT  2048      // half of full scale
 #define SENSOR_REF_MAX      2248      // min resaonable ref value
-#define SENSOR_REF_MIN      1848      //
+#define SENSOR_REF_MIN      1848      // 
 
 // Initialization ------------
 // This many loops are ran before tracking will begin, to allow analog inputs to settle.
@@ -411,10 +411,10 @@ inline DateTime timeNow() {
 */
 /* Tamera FixFocus */
 // pololu maxinum 400
-#define POLOLU_SPEED_FAST_X   (400) //
+#define POLOLU_SPEED_FAST_X   (400) // 
 #define POLOLU_SPEED_SLOW_X   (100) // 
 #define POLOLU_SPEED_FAST_Y   (300) // fast enough and reduces current spikes
-#define POLOLU_SPEED_SLOW_Y   (250) //
+#define POLOLU_SPEED_SLOW_Y   (250) // 
 
 /******************************************************************************
     Checks for motor faults and handles as required.  Based on demo from pololu.
