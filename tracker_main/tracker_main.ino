@@ -2,7 +2,7 @@
     Solar Tracker: main Application for Arduino
     settings for Tamera FixedFocus Mirror
     July 7, 2018 15:15 2018
-
+ 
     Gregory Fung <gwfung@gmail.com>
     Free for use under Creative Commons license CC BY:
    https://creativecommons.org/licenses/
